@@ -163,7 +163,7 @@ if authentication_status ==True:
         #---------------------------------------------others 
         if option_m == "Other Books" and option_m_1 == "Add Data":
             #database.insert_period_2(link_1, link_2, link_3, link_4, link_5, link_6)
-            db_4 = deta_base.Base("Other%20Books%20")
+            db_4 = deta_base.Base("Other_Books_1")
             st.header("Add a Book")
             with st.form("entry_form", clear_on_submit=True):
                 col1, col2 = st.columns(2)
